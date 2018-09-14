@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="Xavier La Rosa">	
+<title>Contact</title>
+<link rel="stylesheet" href="site.css">
+<style>
+fieldset
+{
+	margin-left:20%;
+	margin-right:20%;
+}
+
+</style>
+</head>
+
+<body>
+	
+	<div id= "container">
+	
+	
+		<header> <h1>Xavier La Rosa</h1> </header>
+
+	
+					<nav>
+
+					<ul>
+						<li><a href="home.html">Home</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="mycollege.html">My College</a></li>
+						<li><a href="myfamily.html">My Family</a></li> 
+						<li><a href="contactme.html">Contact Me</a></li>
+					</ul>	
+
+					</nav>
+
+
+				<main class="contactinfo">
+					<form action="http://webapps.cmp239.com/api/values" method="post">
+						<fieldset>
+							<legend> All fields are required</legend>
+								<label for="sendername">Name:</label>
+									<input type="text" name="sendername" id="sendername">
+								<label for="email">Email:</label>
+									<input type="text" name="email" id="email">
+								<br><label for="subject">Subject:</label>
+									<input type="text" name="subject" id="subject">
+								<label for="message"></label>
+									<textarea name="message" id="message" rows="8" cols="60"
+										placeholder="Type your message here"></textarea>
+							<input type="hidden" value="Xavier La Rosa" name="studentname" id="studentname">
+							<input type="submit" value="Submit">
+						</fieldset>
+					</form>
+				</main>
+	
+				<footer>© Copyright 2016 Xavier La Rosa</footer>
+
+	</div>
+	
+</body>
+
+</html>
